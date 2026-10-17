@@ -1,0 +1,15 @@
+{
+  "name": "wc-lite",
+  "version": "0.1.0",
+  "private": true,
+  "description": "零依赖的命令行工具：统计文件的行数、单词数和字符数。",
+  "bin": {
+    "wc-lite": "bin/wc-lite.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
